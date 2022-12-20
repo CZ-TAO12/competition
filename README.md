@@ -56,3 +56,6 @@ SentenceTransformers 是一个可以用于句子、文本和图像嵌入的Pytho
 该模型基于Whole Word Masking(WWM)的中文预训练BERT模型Chinese RoBERTa WWM Ext，提供了基于简单对比学习（SimCSE:Simple Contrastive Learning of Sentence Embeddings）的简体中文句子嵌入。
 
 ```
+### 训练好的模型参数
+Baidu Cloud：https://pan.baidu.com/s/17nlQ-WMy4q7L19hzLM63jw 
+password：zbci
