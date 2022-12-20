@@ -1,0 +1,22 @@
+python==3.9.7
+pytorch==1.13+cu117
+numpy==1.23.5
+scikit-learn==1.1.3
+sentence-transformers==2.2.2
+
+
+深度学习环境安装流程：
+1. 安装anaconda，配置相关深度学习环境
+https://www.anaconda.com/
+
+2.打开anaconda的终端，配置虚拟环境（e.g., cascade）
+conda create --name cascade python=3.9
+
+# 激活虚拟环境
+conda activate cascade
+
+#安装pytorch，https://pytorch.org/
+conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
+
+#安装其他的库
+pip install -r requirements.txt
